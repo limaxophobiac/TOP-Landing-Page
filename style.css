@@ -4,7 +4,8 @@
     font-family: 'Roboto', 'Open Sans', Helvetica;
 }
 
-.body{
+body{
+    margin: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -17,8 +18,13 @@
 }
 
 .header, .hero, .footer {
+    padding: 0 125px;
     display: flex;
     background-color: #1F2837;
+}
+
+.footer{
+    height: 100px;
 }
 
 .infoheader {
@@ -43,8 +49,9 @@
     align-items: flex-start;
 }
 
-.calltoaction{
+.callband{
     height: 250px;
+    padding: 0 100px;
 }
 
 .imageinfo{
@@ -58,9 +65,18 @@
 }
 
 .hero{
-    flex: 1 1 auto;
+    flex: 1 0 auto;
     color: #F9FAF8;
     height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heroimage, .heroleft{
+    flex: 0 0 auto;
+    height: 150px;
+    width: 300px;
 }
 
 .logo {
@@ -69,7 +85,7 @@
     color: #F9FAF8;
 }
 
-img{
+.imageinfo img{
     border: 2px solid #3982F6;
     padding: 5px;
     border-radius: 8px;
@@ -85,6 +101,19 @@ a {
 .quoteband{
     height: 250px;
     background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quotebox{
+    width: 500px;
+    height: 150px;
+    flex: 0 1 auto;
+}
+
+.quotation{
+    text-align: right;
 }
 
 .footer {
