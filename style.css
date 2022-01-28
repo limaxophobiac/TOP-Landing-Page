@@ -27,6 +27,10 @@ body{
     height: 100px;
 }
 
+.header a{
+    margin-left: 20px;
+}
+
 .infoheader {
     height: 100px;
     display: flex;
@@ -50,8 +54,35 @@ body{
 }
 
 .callband{
-    height: 250px;
-    padding: 0 100px;
+    height: 300px;
+    padding: 0 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calltoact{
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex: 1;
+    height: 120px;
+    border: 2px solid #3882F6;
+    padding: 2px;
+    border-radius: 8px;
+    color: #E5E7EB;
+}
+
+
+.calltext h3, p{
+    margin: 5px;
+}
+
+.callbutton {
+    border: 2px solid #E5E7EB;
+    padding: 5px 20px;
+    border-radius: 5px;
 }
 
 .imageinfo{
@@ -76,7 +107,7 @@ body{
 .heroimage, .heroleft{
     flex: 0 0 auto;
     height: 150px;
-    width: 300px;
+    width: 350px;
 }
 
 .logo {
@@ -99,7 +130,7 @@ a {
 }
 
 .quoteband{
-    height: 250px;
+    height: 300px;
     background-color: #E5E7EB;
     display: flex;
     justify-content: center;
@@ -112,8 +143,18 @@ a {
     flex: 0 1 auto;
 }
 
+.quote{
+    font-size: 20px;
+    font-weight: 100;
+    font-style: italic;
+    height: 100px;
+    flex: 1 1 auto;
+}
+
 .quotation{
     text-align: right;
+    font-weight: bold;
+    margin-right: 40px;
 }
 
 .footer {
