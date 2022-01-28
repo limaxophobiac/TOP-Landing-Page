@@ -8,7 +8,6 @@ body{
     margin: 0;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .content{
@@ -21,10 +20,15 @@ body{
     padding: 0 125px;
     display: flex;
     background-color: #1F2837;
+    align-items: center;
 }
 
 .footer{
     height: 100px;
+}
+
+.header {
+    height: 50px;
 }
 
 .header a{
@@ -81,7 +85,7 @@ body{
 
 .callbutton {
     border: 2px solid #E5E7EB;
-    padding: 5px 20px;
+    padding: 5px 25px;
     border-radius: 5px;
 }
 
@@ -101,13 +105,37 @@ body{
     height: 300px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+
 }
 
 .heroimage, .heroleft{
     flex: 0 0 auto;
     height: 150px;
     width: 350px;
+}
+
+.heroleft{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.herotext{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.heroexplain{
+    font-size: 14px;
+}
+
+.signbutton{
+    background-color: #3882F6;
+    padding: 5px 25px;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-top: 6px;
 }
 
 .logo {
