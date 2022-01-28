@@ -1,0 +1,58 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .hero, .footer {
+    display: flex;
+    background-color: #1F2837;
+}
+
+.information {
+    height: 300px;
+    display: flex;
+    background-color:#F9FAF8;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.imageinfo{
+    width: 130px;
+}
+
+.information img{
+    height: 100px;
+    width: 100px;
+}
+
+.hero{
+    flex: 1 1 auto;
+    color: #F9FAF8;
+    height: 300px;
+}
+
+.logo {
+    margin-right: auto;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    
+}
+
+.footer {
+    color: #E5E7EB;
+}
